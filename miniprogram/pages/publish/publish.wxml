@@ -1,8 +1,8 @@
 <view class="body">
-  <view class="top">
+  <!-- <view class="top">
     <text bindtap="backPage">x</text>
     <button size="mini" class="publish-btn">发布</button>
-  </view>
+  </view> -->
 
   <view class="container">
     <!-- 类型 -->
@@ -28,7 +28,7 @@
     </view>
     <!-- 信息 -->
     <view class="input-list">
-      <input value="{{name}}" class="input-item" placeholder="请输入物品名称" bindinput="getName" type="text" />
+      <input value="{{name}}" class="input-item" placeholder="请输入事件名称" bindinput="getName" type="text" />
       <input value="{{date}}" class="input-item" placeholder="请输入事件时间" bindinput="getDate" type="text" />
       <input value="{{region}}" class="input-item" placeholder="请输入事件地点" bindinput="getRegion" type="text" />
       <input value="{{phone}}" class="input-item" placeholder="如何联系你?如:qq123456789等" bindinput="getPhone" type="text" />
@@ -54,6 +54,8 @@
       </view>
     </view>
   </view>
-
+  <view class="buttom">
+    <button size="mini" class="publish-btn">发布</button>
+  </view>
 
 </view>
