@@ -1,0 +1,9 @@
+/* 菜单列表内容背景 */
+.lose-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.body{
+  padding-bottom: 200rpx;
+}

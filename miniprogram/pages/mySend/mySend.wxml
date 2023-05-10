@@ -1,0 +1,11 @@
+<view class="body">
+
+<!-- tab菜单切换 -->
+<Tab tabList="{{tabList}}" />
+
+<!-- 菜单列表内容 -->
+<view class="lose-list">
+  <ViewCard wx:for="{{list}}" wx:key="index" data="{{item}}" />
+</view>
+
+</view>

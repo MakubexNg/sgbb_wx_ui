@@ -1,0 +1,30 @@
+/* tab菜单背景 */
+.tab {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* tab菜单 */
+.tab-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx 0;
+  position: relative;
+}
+
+/* tab菜单未选中 */
+.tab-default {
+  background: #f3f3f3;
+}
+
+/* tab菜单选中下划线 */
+.tab-line {
+  position: absolute;
+  width: 65%;
+  height: 0;
+  border: 3rpx solid #047ffc;
+  bottom: 0;
+}

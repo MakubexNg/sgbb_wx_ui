@@ -1,0 +1,58 @@
+/* 菜单列表内容 */
+.lose-item {
+  width: 100%;
+  display: flex;
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 5rpx;
+  box-sizing: border-box;
+}
+
+/* 菜单列表内容图片 */
+.lose-item .lose-item-image {
+  width: 250rpx;
+  height: 250rpx;
+  min-width: 250rpx;
+  border-radius: 20rpx;
+}
+
+/* 菜单列表内容文字 */
+.lose-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+  width: 100%;
+}
+
+/* 菜单列表内容文字标题 */
+.lose-content .title {
+  font-weight: bold;
+}
+
+/* 菜单列表内容文字地点 */
+.lose-content .region {
+  margin-top: 35rpx;
+}
+
+/* 菜单列表内容文字描述和求助时间 */
+.lose-content .desc {
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 400rpx;
+}
+
+.lose-content .region .date,
+.desc {
+  font-size: 26rpx;
+  margin-bottom: 5rpx;
+}
+
+/* 菜单列表内容文字发布时间 */
+.lose-content .publish-time {
+  margin-top: 30rpx;
+  margin-left: auto;
+  color: #666;
+  font-size: 26rpx;
+}
